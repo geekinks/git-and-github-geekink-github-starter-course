@@ -13,21 +13,15 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-    - name: text
-      id: text
-      uses: classroom-resources/autograding-io-grader@v1
+    - name: pytest
+      id: pytest
+      uses: classroom-resources/autograding-python-grader@v1
       with:
-        test-name: text
+        timeout: 10
         setup-command: ''
-        command: "./git"
-        input: 1+1
-        expected-output: '2'
-        comparison-method: exact
-        timeout: 5
-        max-score: 5
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
-        TEXT_RESULTS: "${{steps.text.outputs.result}}"
+        PYTEST_RESULTS: "${{steps.pytest.outputs.result}}"
       with:
-        runners: text
+        runners: pytest
