@@ -22,12 +22,13 @@ Finding Myself in a learning environment Under the Mentorship of Mal Adam Geeky 
 3. 
 
 
-Day2:
+Day2:Learning about Github and how to use it, at first I find it Simple later is beyond my expectations. 
 
 1. 
 3. 
 2. 
 
-final remark
+final remark:
+Hopefully this amazing program helped me and other learners to become amazing guru tech in future 
 
 > gjk'lkjkl;';lk
