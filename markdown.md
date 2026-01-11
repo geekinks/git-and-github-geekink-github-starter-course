@@ -8,7 +8,7 @@
 - [x] Github Desktop
 - [x] image
 
-!()[./logo.png]
+![](./logo.png)
 
 > learing by Doing
 
