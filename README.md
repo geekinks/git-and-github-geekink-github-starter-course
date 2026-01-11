@@ -1,9 +1,37 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/drTYcFPv)
-# :wave: The Basics of GitHub 
+# 👋 Welcome to GitHub — the GeekInk Way
 
-## 🤓 Course overview and learning outcomes 
+🌱 Why This Matters
 
-The goal of this course is to give you a brief introduction to GitHub. We’ll also provide you with materials for further learning and a few ideas to get you started on our platform. 🚀
+At GeekInk, we believe code is not written to exist alone.
+
+It is written to be shared, reviewed, improved, and trusted.
+
+This course introduces you to Git and GitHub, not just as tools, but as skills for collaboration, communication, and growth in the real tech world.
+
+By the end of this journey, you won’t just know how to use GitHub — you’ll understand why developers rely on it to work together at scale.
+
+## 🎯 Learning Outcomes (What You’ll Walk Away With)
+
+After completing this course, you should be able to:
+
+- [ ] Think like a collaborative developer, not a solo coder.
+
+- [ ] Track your work confidently using Git.
+
+- [ ] Share and review code using GitHub.
+
+- [ ] Communicate clearly through commits, issues, and pull requests.
+
+- [ ] Document your work using Markdown.
+
+- [ ] Present your GitHub profile as a living portfolio.
+
+>At GeekInk, learning is successful only when it prepares you for real teams and real impact.
+>
+
+-  [Adamu muhammad muhammad](https://github.com/AdamsGeeky)
+-  [Aminu Gambo Abubakar](https://github.com/Aminullah-01)
+-  [EXCLUSIVE999]()
 
 ## :octocat: Git and GitHub
 
@@ -96,6 +124,7 @@ You can check out the GitHub Explore website [at github.com/explore](https://git
 * Create your profile README. Let the world know a little bit more about you! What are you interested in learning? What are you working on? What's your favorite hobby? Learn more about creating your profile README in the document, ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
 * Go to your user dashboard and create a new repository. Experiment with the features within that repository to familiarize yourself with them. 
 * [Let us know what you liked or didn’t like about the content of this course](https://support.github.com/contact/education). What would you like to see more of? What would be interesting or helpful to your learning journey? 
+
 
 ## 📚  Resources 
 * [A short video explaining what GitHub is](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be) 
