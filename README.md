@@ -27,10 +27,11 @@ After completing this course, you should be able to:
 - [ ] Present your GitHub profile as a living portfolio.
 
 >At GeekInk, learning is successful only when it prepares you for real teams and real impact.
+>
 
-[Adamu muhammad muhammad](https://github.com/AdamsGeeky)
-
-
+-  [Adamu muhammad muhammad](https://github.com/AdamsGeeky)
+-  [Aminu Gambo Abubakar](https://github.com/Aminullah-01)
+-  [EXCLUSIVE999]()
 
 ## :octocat: Git and GitHub
 
