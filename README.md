@@ -28,6 +28,10 @@ After completing this course, you should be able to:
 
 >At GeekInk, learning is successful only when it prepares you for real teams and real impact.
 
+[Adamu muhammad muhammad](https://github.com/AdamsGeeky)
+
+
+
 ## :octocat: Git and GitHub
 
 Git is a **distributed Version Control System (VCS)**, which means it is a useful tool for easily tracking changes to your code, collaborating, and sharing. With Git you can track the changes you make to your project so you always have a record of what you’ve worked on and can easily revert back to an older version if need be. It also makes working with others easier—groups of people can work together on the same project and merge their changes into one final source!
