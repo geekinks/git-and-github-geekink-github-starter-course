@@ -29,6 +29,10 @@ After completing this course, you should be able to:
 >At GeekInk, learning is successful only when it prepares you for real teams and real impact.
 >
 
+## learn Markdown for Github Communinications
+[See it here](./markdown.md)
+
+
 -  [Adamu muhammad muhammad](https://github.com/AdamsGeeky)
 -  [Aminu Gambo Abubakar](https://github.com/Aminullah-01)
 -  [EXCLUSIVE999]()
