@@ -1,4 +1,4 @@
-# 👋 Welcome to GitHub — the GeekInk Way
+-# 👋 Welcome to GitHub — the GeekInk Way
 
 🌱 Why This Matters
 
@@ -38,7 +38,7 @@ After completing this course, you should be able to:
 -  [EXCLUSIVE999]()
 -  [sumybooks2025-code](https://github.com/sumybooks2025-code)
 -  [muhammadmahdikabir](https://github.com/Mahdikabir-hub)
--  [umaryahyaaminu](htttps://github.com/umar-faruoq)
+-  [umaryahyaaminu](https://github.com/umar-faruoq)
 
 ## :octocat: Git and GitHub
 
