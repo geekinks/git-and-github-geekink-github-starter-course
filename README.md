@@ -39,6 +39,7 @@ After completing this course, you should be able to:
 -  [sumybooks2025-code](https://github.com/sumybooks2025-code)
 -  [muhammadmahdikabir](https://github.com/Mahdikabir-hub)
 -  [umaryahyaaminu](https://github.com/umar-faruoq)
+-  [Abdullahi Abubakar Musa](https://github.com/abdullahiamusa460-del)
 
 ## :octocat: Git and GitHub
 
