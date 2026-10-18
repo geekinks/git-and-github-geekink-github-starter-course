@@ -40,6 +40,7 @@ After completing this course, you should be able to:
 -  [muhammadmahdikabir](https://github.com/Mahdikabir-hub)
 -  [umaryahyaaminu](https://github.com/umar-faruoq)
 -  [Abdullahi Abubakar Musa](https://github.com/abdullahiamusa460-del)
+- [shuaibu Abubakar](https://github.com/shuaibushng)
 -  [Amina tafida](https://github.com/aminatafida352-beep)
 
 ## :octocat: Git and GitHub
