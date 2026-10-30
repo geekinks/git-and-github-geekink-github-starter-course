@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "title": "Submission",
+  "type": "object", "additionalProperties": false,
+  "required": ["submission_id", "student_id", "cohort_id", "assignment_id", "submitted_at", "status", "evidence"],
+  "properties": {
+    "submission_id": {"$ref": "#/$defs/id"}, "student_id": {"type": "string", "pattern": "^GI-[A-Z0-9]+-[0-9]{3,}$"}, "cohort_id": {"$ref": "#/$defs/id"}, "assignment_id": {"$ref": "#/$defs/id"},
+    "submitted_at": {"type": "string", "format": "date-time"}, "status": {"enum": ["submitted", "automated_checks_passed", "awaiting_instructor_review", "changes_requested", "approved", "completed"]},
+    "evidence": {"type": "object", "additionalProperties": {"type": "string"}}, "artifact_root": {"type": "string"}, "student_notes": {"type": "string"}, "instructor_feedback": {"type": "string"}
+  }, "$defs": {"id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"}}
+}

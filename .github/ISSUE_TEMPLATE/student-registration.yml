@@ -1,0 +1,27 @@
+name: Student registration
+description: Request enrollment without sharing private personal information.
+title: "Registration: @github-username"
+labels: [registration, needs-instructor-review]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include email, phone number, address, passwords, tokens, or identity documents.
+  - type: input
+    id: github_username
+    attributes: {label: GitHub username, description: Enter the unique account name without @, placeholder: octocat}
+    validations: {required: true}
+  - type: input
+    id: display_name
+    attributes: {label: Display name, description: The name you want instructors to use.}
+    validations: {required: true}
+  - type: input
+    id: cohort_id
+    attributes: {label: Cohort ID, description: Copy this from the instructor's invitation.}
+    validations: {required: true}
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Confirmation
+      options:
+        - label: I confirm this GitHub account belongs to me and the information above may be stored in this training repository.
+          required: true

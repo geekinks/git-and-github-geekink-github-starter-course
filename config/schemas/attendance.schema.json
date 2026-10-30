@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "title": "Attendance record",
+  "type": "object", "additionalProperties": false,
+  "required": ["attendance_id", "cohort_id", "session_id", "session_date", "scheduled_duration_minutes", "entries", "recorded_by", "recorded_at"],
+  "properties": {
+    "attendance_id": {"$ref": "#/$defs/id"}, "cohort_id": {"$ref": "#/$defs/id"}, "session_id": {"$ref": "#/$defs/id"}, "session_date": {"type": "string", "format": "date"}, "scheduled_duration_minutes": {"type": "integer", "minimum": 15},
+    "recorded_by": {"type": "string", "minLength": 1}, "recorded_at": {"type": "string", "format": "date-time"},
+    "entries": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["student_id", "status", "practical_status"], "properties": {"student_id": {"type": "string", "pattern": "^GI-[A-Z0-9]+-[0-9]{3,}$"}, "status": {"enum": ["present", "absent", "late", "excused"]}, "practical_status": {"enum": ["not_started", "in_progress", "completed", "not_applicable"]}, "notes": {"type": "string"}}}}
+  }, "$defs": {"id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"}}
+}

@@ -1,0 +1,15 @@
+assignment_id: git-environment
+course_id: git-and-github-starter
+session_id: session-01
+title: Terminal and Git environment check
+instructions: Submit a Markdown file showing the commands used to inspect Git, configure a non-sensitive identity, navigate directories, and display a project tree.
+learning_objectives: [Use basic terminal navigation, Verify a Git installation, Explain a repository structure]
+due_offset_days: 2
+submission:
+  method: file
+  requirements: [A readable environment.md file, Command output with secrets removed, A short reflection]
+validation:
+  - {type: required_file, path: environment.md}
+  - {type: markdown_heading, path: environment.md, heading: Reflection}
+maximum_score: 10
+human_review_required: true

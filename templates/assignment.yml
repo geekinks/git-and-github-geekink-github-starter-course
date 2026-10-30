@@ -1,0 +1,14 @@
+assignment_id: example-assignment
+course_id: example-course
+session_id: session-01
+title: Example assignment
+instructions: Explain what the student must produce.
+learning_objectives: [Apply the session objective]
+due_offset_days: 2
+submission:
+  method: file
+  requirements: [A readable answer.md file]
+validation:
+  - {type: required_file, path: answer.md}
+maximum_score: 10
+human_review_required: true

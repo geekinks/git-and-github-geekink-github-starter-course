@@ -1,0 +1,15 @@
+assignment_id: codespaces-pages
+course_id: git-and-github-starter
+session_id: session-05
+title: Codespaces application and Pages deployment
+instructions: Run a small Python program in Codespaces or locally, then build and publish a static page with GitHub Pages.
+learning_objectives: [Use a cloud or local development environment, Publish a static website, Troubleshoot deployment output]
+due_offset_days: 11
+submission:
+  method: external_repository
+  requirements: [Repository HTTPS URL, GitHub Pages HTTPS URL, A deployment troubleshooting note]
+validation:
+  - {type: url_field, field: repository_url}
+  - {type: url_field, field: pages_url}
+maximum_score: 15
+human_review_required: true

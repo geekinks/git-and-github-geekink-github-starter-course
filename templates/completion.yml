@@ -1,0 +1,8 @@
+completion_id: example-course-2027-01-completion-example-001
+student_id: GI-EXAMPLE-001
+cohort_id: example-course-2027-01
+status: completed
+recorded_at: "2027-01-08T19:00:00Z"
+recorded_by: instructor-github-username
+report_reference: reports/generated/example-course-2027-01.json
+notes: Created only after an instructor verifies the derived completion gates.

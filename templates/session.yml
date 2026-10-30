@@ -1,0 +1,10 @@
+session_id: session-01
+course_id: example-course
+sequence: 1
+title: Example session
+duration_minutes: 120
+topics: [Example topic]
+objectives: [Demonstrate the intended learning outcome]
+resources:
+  - title: Authoritative resource
+    url: https://example.com/resource

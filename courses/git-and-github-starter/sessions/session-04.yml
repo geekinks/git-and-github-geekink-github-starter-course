@@ -1,0 +1,14 @@
+session_id: session-04
+course_id: git-and-github-starter
+sequence: 4
+title: Branches, Pull Requests, and Merge Conflicts
+duration_minutes: 120
+topics: [Branch creation, Switching branches, Commits and pushes, Pull requests, Code review, Merge conflicts, Collaboration]
+objectives: [Develop on a feature branch, Open and review a pull request, Resolve a merge conflict]
+resources:
+  - title: Review pull requests
+    url: https://github.com/skills/review-pull-requests
+    local_source: ../03_review-pull-requests
+  - title: Resolve merge conflicts
+    url: https://github.com/skills/resolve-merge-conflicts
+    local_source: ../resolve-merge-conflicts

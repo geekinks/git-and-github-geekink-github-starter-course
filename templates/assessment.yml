@@ -1,0 +1,10 @@
+assessment_id: example-course-2027-01-final-example-001
+student_id: GI-EXAMPLE-001
+cohort_id: example-course-2027-01
+assessment_type: final_project
+score: 80
+maximum_score: 100
+result: passed
+feedback: Concise, actionable instructor feedback.
+reviewed_by: instructor-github-username
+reviewed_at: "2027-01-08T18:00:00Z"

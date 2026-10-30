@@ -1,0 +1,14 @@
+assignment_id: collaboration-pr
+course_id: git-and-github-starter
+session_id: session-04
+title: Branch, review, and conflict exercise
+instructions: Complete work on a feature branch, open a pull request, respond to review, and document a merge-conflict resolution.
+learning_objectives: [Use a branch-based workflow, Participate in pull request review, Resolve and explain a conflict]
+due_offset_days: 9
+submission:
+  method: external_repository
+  requirements: [Pull request HTTPS URL, Conflict reflection, Instructor-visible review history]
+validation:
+  - {type: url_field, field: pull_request_url}
+maximum_score: 20
+human_review_required: true

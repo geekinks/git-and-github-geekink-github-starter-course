@@ -1,0 +1,14 @@
+session_id: session-05
+course_id: git-and-github-starter
+sequence: 5
+title: GitHub Codespaces and GitHub Pages
+duration_minutes: 120
+topics: [Cloud development environments, Simple Python applications, Codespaces editing and commits, Static websites, GitHub Pages publishing, Deployment troubleshooting]
+objectives: [Run a Python program in Codespaces, Publish a static site, Diagnose a failed Pages deployment]
+resources:
+  - title: Code with Codespaces
+    url: https://github.com/skills/code-with-codespaces
+    local_source: ../code-with-codespaces
+  - title: GitHub Pages
+    url: https://github.com/skills/github-pages
+    local_source: ../github-pages

@@ -1,0 +1,19 @@
+version: 1
+organization: GeekInk Innovations Ltd.
+default_timezone: Africa/Lagos
+data:
+  students: students/students.yml
+  courses: courses
+  cohorts: cohorts
+  attendance: tracking/attendance
+  submissions: tracking/submissions
+  assessments: tracking/assessments
+privacy:
+  public_dashboard: false
+  public_fields:
+    - student_id
+    - github_username
+    - completion_status
+reporting:
+  output_directory: reports/generated
+  include_individual_scores: false

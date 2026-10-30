@@ -1,0 +1,6 @@
+# The canonical registry is students/students.yml. Do not put email, phone, or address here.
+student_id: GI-EXAMPLE-001
+github_username: octocat
+display_name: Example Learner
+status: active
+source: Approved registration issue URL or instructor note.

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "title": "Cohort",
+  "type": "object", "additionalProperties": false,
+  "required": ["cohort_id", "course_id", "name", "status", "start_date", "end_date", "schedule"],
+  "properties": {
+    "cohort_id": {"$ref": "#/$defs/id"}, "course_id": {"$ref": "#/$defs/id"}, "name": {"type": "string", "minLength": 1},
+    "status": {"enum": ["planned", "active", "completed", "archived"]}, "start_date": {"type": "string", "format": "date"}, "end_date": {"type": "string", "format": "date"},
+    "schedule": {"type": "array", "minItems": 1, "items": {"type": "object", "additionalProperties": false, "required": ["session_id", "date", "duration_minutes"], "properties": {"session_id": {"$ref": "#/$defs/id"}, "date": {"type": "string", "format": "date"}, "duration_minutes": {"type": "integer", "minimum": 15}}}},
+    "assignment_deadlines": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["assignment_id", "due_at"], "properties": {"assignment_id": {"$ref": "#/$defs/id"}, "due_at": {"type": "string", "format": "date-time"}}}}
+  }, "$defs": {"id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"}}
+}

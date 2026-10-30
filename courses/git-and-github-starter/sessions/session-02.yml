@@ -1,0 +1,14 @@
+session_id: session-02
+course_id: git-and-github-starter
+sequence: 2
+title: Git Fundamentals and Repository Management
+duration_minutes: 120
+topics: [git init, git clone, git status, git add, git commit, git log, git diff, git push, git pull, Remote repositories]
+objectives: [Create and clone repositories, Record and inspect changes, Synchronize local and remote work]
+resources:
+  - title: Introduction to Git
+    url: https://github.com/skills/introduction-to-git
+    local_source: ../introduction-to-git
+  - title: Repository management
+    url: https://github.com/skills/introduction-to-repository-management
+    local_source: ../introduction-to-repository-management

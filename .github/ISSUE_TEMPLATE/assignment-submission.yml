@@ -1,0 +1,24 @@
+name: Assignment submission
+description: Point instructors to a structured submission record or external evidence.
+title: "Submission: assignment-id — GI-STUDENT-ID"
+labels: [submission, needs-validation]
+body:
+  - type: input
+    id: student_id
+    attributes: {label: Student ID, placeholder: GI-GH-001}
+    validations: {required: true}
+  - type: input
+    id: cohort_id
+    attributes: {label: Cohort ID}
+    validations: {required: true}
+  - type: input
+    id: assignment_id
+    attributes: {label: Assignment ID}
+    validations: {required: true}
+  - type: input
+    id: submission_record
+    attributes: {label: Submission record or pull request URL, description: Use an HTTPS GitHub URL.}
+    validations: {required: true}
+  - type: textarea
+    id: notes
+    attributes: {label: Notes, description: Explain what you completed and where you need help.}

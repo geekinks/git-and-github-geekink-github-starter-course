@@ -1,0 +1,30 @@
+course_id: git-and-github-starter
+title: Git and GitHub Starter Course
+version: 1
+description: A two-week, beginner-friendly course in Git, GitHub, collaboration, documentation, Codespaces, and Pages.
+duration_weeks: 2
+session_ids:
+  - session-01
+  - session-02
+  - session-03
+  - session-04
+  - session-05
+  - session-06
+assignment_ids:
+  - git-environment
+  - repository-workflow
+  - markdown-readme
+  - collaboration-pr
+  - codespaces-pages
+  - integrated-project
+completion:
+  required_assignment_ids:
+    - git-environment
+    - repository-workflow
+    - markdown-readme
+    - collaboration-pr
+    - codespaces-pages
+    - integrated-project
+  minimum_attendance_sessions: 5
+  final_assessment_required: true
+  minimum_final_score: 70

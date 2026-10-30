@@ -1,0 +1,16 @@
+assignment_id: markdown-readme
+course_id: git-and-github-starter
+session_id: session-03
+title: Professional project README
+instructions: Write a README that introduces a project, explains setup and usage, and demonstrates headings, lists, links, an image, a code block, and a table.
+learning_objectives: [Structure technical documentation, Use common Markdown features, Give a reader actionable setup guidance]
+due_offset_days: 6
+submission:
+  method: pull_request
+  requirements: [README.md changed through a pull request, Setup and Usage sections, Rendered Markdown reviewed]
+validation:
+  - {type: required_file, path: README.md}
+  - {type: markdown_heading, path: README.md, heading: Setup}
+  - {type: markdown_heading, path: README.md, heading: Usage}
+maximum_score: 15
+human_review_required: true

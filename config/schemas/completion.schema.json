@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "title": "Course completion record",
+  "type": "object", "additionalProperties": false,
+  "required": ["completion_id", "student_id", "cohort_id", "status", "recorded_at", "recorded_by", "report_reference"],
+  "properties": {
+    "completion_id": {"$ref": "#/$defs/id"}, "student_id": {"type": "string", "pattern": "^GI-[A-Z0-9]+-[0-9]{3,}$"}, "cohort_id": {"$ref": "#/$defs/id"},
+    "status": {"enum": ["completed", "not_completed", "withdrawn"]}, "recorded_at": {"type": "string", "format": "date-time"}, "recorded_by": {"type": "string", "minLength": 1}, "report_reference": {"type": "string", "pattern": "^(?!/)(?!.*\\.\\.).+$"}, "notes": {"type": "string"}
+  }, "$defs": {"id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"}}
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "title": "Assessment",
+  "type": "object", "additionalProperties": false,
+  "required": ["assessment_id", "student_id", "cohort_id", "assessment_type", "score", "maximum_score", "result", "reviewed_by", "reviewed_at"],
+  "properties": {
+    "assessment_id": {"$ref": "#/$defs/id"}, "student_id": {"type": "string", "pattern": "^GI-[A-Z0-9]+-[0-9]{3,}$"}, "cohort_id": {"$ref": "#/$defs/id"}, "assessment_type": {"enum": ["final_project", "quiz", "practical", "other"]},
+    "score": {"type": "number", "minimum": 0}, "maximum_score": {"type": "number", "exclusiveMinimum": 0}, "result": {"enum": ["pending", "passed", "changes_requested", "failed"]}, "feedback": {"type": "string"}, "reviewed_by": {"type": "string", "minLength": 1}, "reviewed_at": {"type": "string", "format": "date-time"}
+  }, "$defs": {"id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"}}
+}

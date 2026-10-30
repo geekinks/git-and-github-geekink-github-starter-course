@@ -1,0 +1,10 @@
+submission_id: example-course-2027-01-example-001
+student_id: GI-EXAMPLE-001
+cohort_id: example-course-2027-01
+assignment_id: example-assignment
+submitted_at: "2027-01-05T12:00:00Z"
+status: submitted
+artifact_root: submissions/GI-EXAMPLE-001/example-assignment
+evidence:
+  repository_url: https://github.com/octocat/example
+student_notes: Describe the work and any difficulty.

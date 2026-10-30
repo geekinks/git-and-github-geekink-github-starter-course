@@ -1,0 +1,15 @@
+assignment_id: repository-workflow
+course_id: git-and-github-starter
+session_id: session-02
+title: Local-to-remote repository workflow
+instructions: Create or clone a practice repository and demonstrate status, staging, commits, history, differences, push, and pull.
+learning_objectives: [Record meaningful changes with Git, Inspect repository history, Synchronize a remote]
+due_offset_days: 4
+submission:
+  method: mixed
+  requirements: [Repository HTTPS URL, A workflow.md explanation, Evidence of meaningful commits]
+validation:
+  - {type: required_file, path: workflow.md}
+  - {type: url_field, field: repository_url}
+maximum_score: 15
+human_review_required: true

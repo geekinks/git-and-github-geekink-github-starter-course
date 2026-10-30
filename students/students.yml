@@ -1,0 +1,66 @@
+students:
+  - student_id: GI-GH-001
+    github_username: AdamsGeeky
+    display_name: Adamu Muhammad Muhammad
+    status: active
+    source: Legacy README roster; conflicting task filename documented in migration report.
+  - student_id: GI-GH-002
+    github_username: Aminullah-01
+    display_name: Aminu Gambo Abubakar
+    status: active
+    source: Legacy README roster and tasks/Aminullah.md.
+  - student_id: GI-GH-003
+    github_username: EXCLUSIVE999
+    display_name: Abdulrahman Adejumo
+    status: active
+    source: Legacy README roster and tasks/EXCLUSIVE999.
+  - student_id: GI-GH-004
+    github_username: Sumybooks2025-code
+    display_name: sumybooks2025-code
+    status: active
+    source: Legacy README roster; task file is empty.
+  - student_id: GI-GH-005
+    github_username: Mahdikabir-hub
+    display_name: muhammadmahdikabir
+    status: active
+    source: Legacy README roster; task file is empty.
+  - student_id: GI-GH-006
+    github_username: umar-faruoq
+    display_name: umaryahyaaminu
+    status: active
+    source: Legacy README roster; task file contains no progress evidence.
+  - student_id: GI-GH-007
+    github_username: abdullahiamusa460-del
+    display_name: Abdullahi Abubakar Musa
+    status: active
+    source: Legacy README roster.
+  - student_id: GI-GH-008
+    github_username: usmanmohammed77
+    display_name: Usman Mohammed
+    status: active
+    source: Legacy README roster.
+  - student_id: GI-GH-009
+    github_username: geekynafisa
+    display_name: nafisa adamu muhammad
+    status: active
+    source: Legacy README roster; original link omitted the URL scheme.
+  - student_id: GI-GH-010
+    github_username: umargambaki
+    display_name: umar sulaiman
+    status: active
+    source: Legacy README roster.
+  - student_id: GI-GH-011
+    github_username: Abjan001
+    display_name: Abdulrahman Adamu Ardo
+    status: active
+    source: Legacy README roster.
+  - student_id: GI-GH-012
+    github_username: shuaibushng
+    display_name: shuaibu Abubakar
+    status: active
+    source: Legacy README roster.
+  - student_id: GI-GH-013
+    github_username: aminatafida352-beep
+    display_name: Amina tafida
+    status: active
+    source: Legacy README roster.

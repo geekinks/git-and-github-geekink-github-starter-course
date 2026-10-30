@@ -1,0 +1,9 @@
+# Replace @geekinks/training-instructors with the real team before enabling required reviews.
+/students/ @geekinks/training-instructors
+/cohorts/ @geekinks/training-instructors
+/tracking/attendance/ @geekinks/training-instructors
+/tracking/assessments/ @geekinks/training-instructors
+/tracking/completions/ @geekinks/training-instructors
+/courses/ @geekinks/training-instructors
+/config/ @geekinks/training-instructors
+/.github/ @geekinks/training-instructors

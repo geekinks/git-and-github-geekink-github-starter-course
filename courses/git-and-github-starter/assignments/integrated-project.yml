@@ -1,0 +1,16 @@
+assignment_id: integrated-project
+course_id: git-and-github-starter
+session_id: session-06
+title: Integrated GitHub portfolio project
+instructions: Submit a well-organized repository with a professional README, meaningful history, a feature-branch pull request, merge-conflict evidence, a development-environment note, and a published portfolio page.
+learning_objectives: [Apply the complete GitHub workflow, Communicate project value, Demonstrate independent troubleshooting]
+due_offset_days: 14
+submission:
+  method: mixed
+  requirements: [Repository HTTPS URL, Pull request HTTPS URL, GitHub Pages HTTPS URL, Final reflection]
+validation:
+  - {type: url_field, field: repository_url}
+  - {type: url_field, field: pull_request_url}
+  - {type: url_field, field: pages_url}
+maximum_score: 25
+human_review_required: true

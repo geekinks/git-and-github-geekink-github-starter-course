@@ -1,0 +1,11 @@
+session_id: session-03
+course_id: git-and-github-starter
+sequence: 3
+title: Markdown and Documentation
+duration_minutes: 120
+topics: [Markdown syntax, Headings and lists, Links and images, Code blocks, Tables, README files, Technical documentation]
+objectives: [Write readable Markdown, Build a professional README, Document commands and project structure]
+resources:
+  - title: Communicate using Markdown
+    url: https://github.com/skills/communicate-using-markdown
+    local_source: ../02_communicate-using-markdown

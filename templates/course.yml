@@ -1,0 +1,12 @@
+# Required: lowercase stable ID, title, version, description, sessions, assignments, and completion rules.
+course_id: example-course
+title: Example Course
+version: 1
+description: Replace this with the course purpose and audience.
+duration_weeks: 1
+session_ids: [session-01]
+assignment_ids: [example-assignment]
+completion:
+  required_assignment_ids: [example-assignment]
+  minimum_attendance_sessions: 1
+  final_assessment_required: false

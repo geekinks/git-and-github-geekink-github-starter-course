@@ -1,0 +1,12 @@
+attendance_id: example-course-2027-01-session-01
+cohort_id: example-course-2027-01
+session_id: session-01
+session_date: "2027-01-04"
+scheduled_duration_minutes: 120
+recorded_by: instructor-github-username
+recorded_at: "2027-01-04T18:00:00Z"
+entries:
+  - student_id: GI-EXAMPLE-001
+    status: present
+    practical_status: completed
+    notes: Optional non-sensitive instructor note.

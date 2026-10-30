@@ -1,0 +1,14 @@
+# Replace all example dates. The schedule must reference sessions from the selected course.
+cohort_id: example-course-2027-01
+course_id: example-course
+name: Example Course — January 2027
+status: planned
+start_date: "2027-01-04"
+end_date: "2027-01-08"
+schedule:
+  - session_id: session-01
+    date: "2027-01-04"
+    duration_minutes: 120
+assignment_deadlines:
+  - assignment_id: example-assignment
+    due_at: "2027-01-05T17:00:00Z"

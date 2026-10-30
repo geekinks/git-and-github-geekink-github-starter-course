@@ -1,0 +1,11 @@
+session_id: session-06
+course_id: git-and-github-starter
+sequence: 6
+title: Integrated Project and Assessment
+duration_minutes: 120
+topics: [Repository creation, Professional README, File organization, Meaningful commits, Feature branches, Pull requests, Merge conflicts, Development environments, GitHub Pages, Project submission]
+objectives: [Combine the complete GitHub workflow, Present a published portfolio, Explain and defend project choices]
+resources:
+  - title: GitHub Skills exercise creator
+    url: https://github.com/skills/exercise-creator
+    local_source: ../ProJects/exercise-creator

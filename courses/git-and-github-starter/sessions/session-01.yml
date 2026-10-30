@@ -1,0 +1,14 @@
+session_id: session-01
+course_id: git-and-github-starter
+sequence: 1
+title: Git, GitHub, Terminal, and Project Structure
+duration_minutes: 120
+topics: [Version control, Git versus GitHub, Git installation and configuration, Terminal basics, File and directory management, tree command, Repository fundamentals]
+objectives: [Explain version control, Navigate a project from a terminal, Distinguish Git from GitHub]
+resources:
+  - title: Introduction to GitHub
+    url: https://github.com/skills/introduction-to-github
+    local_source: ../01_skills-introduction-to-github
+  - title: Introduction to Git
+    url: https://github.com/skills/introduction-to-git
+    local_source: ../introduction-to-git
